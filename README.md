@@ -8,8 +8,8 @@ This setup comes with:
 - PostgresQL 14.1  
 
 # Requirements  
-- [Docker Engine](https://www.docker.com)
-- [Docker Compose](https://docs.docker.com/compose/install/) 
+- [Docker Engine](https://www.docker.com) (rootless recommended)
+- [Docker Compose](https://docs.docker.com/compose/install/) (latest version)
 
 # Getting Started
 
@@ -29,7 +29,6 @@ cd Docker-Lemp
 ```bash 
 docker compose up -d
 ```  
-(or  ```docker-compose up -d``` if on an older version of Docker Compose.)
 
 - Go to `localhost:8000` on your web browser and you should see the PHP info page.  
 
@@ -39,7 +38,6 @@ docker compose up -d
 ```bash 
 docker compose down
 ```  
-(or  ```docker-compose down``` if on an older version of Docker Compose.)
 
 # Database Login  
 You can access the database on port `5432` of your host machine by using an app such as [dbeaver](https://dbeaver.io/).  
