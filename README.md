@@ -9,7 +9,7 @@ This setup comes with:
 
 # Requirements  
 - [Docker Engine](https://www.docker.com) (rootless recommended)
-- [Docker Compose](https://docs.docker.com/compose/install/) (version 2.0.0 or higher)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
 # Getting Started
 
